@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.grid-cols-auto-fill {
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+}
+
+.img:hover::after {
+  backdrop-filter: blur(3px);
+  opacity: 1;
+}
+
+.img a {
+  transition: all ease-in-out 300ms;
+}
+
+.img:hover a {
+  bottom: 50%;
+  transform: translate(-30px, 17px);
+  opacity: 1;
+  transition: all ease-in-out 300ms;
+}
