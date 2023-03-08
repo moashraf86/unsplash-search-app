@@ -28,7 +28,7 @@ const ImageList = (props) => {
   })
 
   return (
-    <div className='grid grid-cols-auto-fill gap-2 max-w-3xl lg:max-w-5xl mx-auto'>
+    <div className='grid grid-cols-auto-fill gap-2 px-4 max-w-sm sm:max-w-3xl lg:max-w-5xl mx-auto'>
       {images}
     </div>
   )
